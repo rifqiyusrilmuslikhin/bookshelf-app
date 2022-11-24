@@ -10,6 +10,10 @@
         { 
             "src": "/", 
             "dest": "/src/server.js" 
+        },
+        { 
+            "src": "/books", 
+            "dest": "/src/server.js" 
         }
     ]
   }
