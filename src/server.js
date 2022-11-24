@@ -1,5 +1,3 @@
-/* eslint-disable no-tabs */
-/* eslint-disable no-mixed-spaces-and-tabs */
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
 
@@ -8,10 +6,10 @@ const init = async () => {
     port: process.env.PORT || 5000,
     host: process.env.HOST || 'localhost',
     routes: {
-	    cors: {
-	      origin: ['*'],
-	    },
-	  },
+      cors: {
+        origin: ['*'],
+      },
+    },
   });
 
   server.route(routes);
