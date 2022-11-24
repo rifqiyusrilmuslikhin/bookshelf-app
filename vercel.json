@@ -8,8 +8,8 @@
     ],
     "routes": [
         { 
-            "src": "/books", 
-            "dest": "/src/handler.js" 
+            "src": "/", 
+            "dest": "/src/server.js" 
         }
     ]
   }
