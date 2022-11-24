@@ -7,9 +7,9 @@
       }
     ],
     "routes": [
-      {
-        "src": "/src/(.*)",
-        "dest": "/src/"
-      }
+        { 
+            "src": "/books", 
+            "dest": "/src/handler.js" 
+        }
     ]
   }
